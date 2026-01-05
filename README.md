@@ -41,10 +41,6 @@ Transform
 
 Validate records (handle missing snippet or statistics).
 
-Clean and cast data types using PySpark.
-
-Remove duplicates.
-
 Load
 
 Store cleaned data into a Delta table for analytics.
@@ -58,3 +54,6 @@ Top viewed videos.
 
 ## Schedule pipeline using Databricks Jobs
 And set this into Databricks JOB option to Run this Pipeline Every Week.
+
+### Notes
+API keys are excluded for security reasons.
