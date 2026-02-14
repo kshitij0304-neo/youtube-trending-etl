@@ -62,4 +62,10 @@ clean_df.write \
     .mode("overwrite") \
     .saveAsTable("youtube_trending")
 
+#sql commnd for 
+SELECT title,channel, views, likes 
+FROM youtube_trending
+WHERE views > 1000000
+ORDER BY views DESC
+LIMIT 20;
 
