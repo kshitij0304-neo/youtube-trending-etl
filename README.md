@@ -53,7 +53,7 @@ Top viewed videos.
 
 
 ## Schedule pipeline using Databricks Jobs
-And set this into Databricks JOB option to Run this Pipeline Every Week.
+And set this into Databricks JOB option to Run this Pipeline every 21 days.
 
 ### Notes
 API keys are excluded for security reasons.
